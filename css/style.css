@@ -1,11 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Quicksand:wght@300;400;500&family=Raleway:wght@100;200&display=swap");
+
+
 html{
    width:1440px;
    height:2000px;
+   box-sizing:border-box;
 }
 *,*:before,*:after{
     box-sizing: inherit;
 }
 
-.buttton{
 
+.headflex{
+    display:flex;
+   
+}
+.headtitle{
+    display:block;
+    width: 266px;
+    height:99px;
+    margin-left: 109px;
+    margin-right: 340px;
+    margin-top: 77px;
+    border:1px solid black;
+    text-align: center;
+    line-height: 100px;
+}
+.button{
+    display:flex;
+    margin-top:116px ;
+    text-align: center;
+    line-height: 38px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.button1{
+    display:block;
+    width:137px;
+    height:38px;
+    border:1px solid black;
+    text-decoration: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 35px;
+    color: black;
+}
+.button2{
+    display:block;
+    width:90px;
+    height:38px;
+    margin-left: 61px;
+    border:1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.button3{
+    display:block;
+    width:74px;
+    height:38px;
+    margin-left: 61px;
+    border:1px solid black;
+    text-decoration: none;
+    color: black;
+}
+.button4{
+    display:block;
+    width:139px;
+    height:38px;
+    margin-left: 61px;
+    border:1px solid black;
+    text-decoration: none;
+    color: black;
 }
