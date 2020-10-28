@@ -26,7 +26,7 @@ html{
     text-align: center;
     line-height: 100px;
 }
-.button{
+.button-list{
     display:flex;
     margin-top:116px ;
     text-align: center;
@@ -34,6 +34,10 @@ html{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     letter-spacing: 1px;
+}
+.nav-list-item{
+    list-style:none;
+    
 }
 .button1{
     display:block;
