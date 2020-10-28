@@ -12,8 +12,7 @@ html{
 
 
 .headflex{
-    display:flex;
-   
+    display:flex; 
 }
 .headtitle{
     display:block;
