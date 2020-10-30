@@ -68,6 +68,7 @@ html{
     margin-left: 30px;
     margin-right: 224px;
 }
+/* body */
 body{
     margin: 0;
     padding: 0;
@@ -87,7 +88,7 @@ body{
     width: 335px;
     height: 188px;
     background-color: #a6a6a6;
-    margin-top: 256px;
+    margin-top: 179px;
     text-decoration: none;
 }
 .picture1{
@@ -103,50 +104,68 @@ body{
 .name{
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
-    font-weight: 500;
     letter-spacing: 1px;
     color: black;
-    text-align: center;
-    margin-top: 216px;
+    margin-left: 160px;
+    margin-top: 27px;
 }
-.icon{
-    margin-top: 241px;
+.intro{
+    text-decoration: none;
+    color: black;
 }
-.icon_list{
+.name2{
+    margin: 229px;
+}
+.name3{
+    margin-left: -66px;
+}
+
+/* footer */
+footer{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 200px;
+    height: 35px;
+    margin-left: 620px;
+    margin-top: 263px;
+}
+nav ul{
     display:flex;
-    
+    list-style-type: none;
+    padding: 0;
+    margin-top: 5px;
+    justify-content:space-around;
 }
-.icon_item{
-    list-style: none;
+nav ul li a{
+    text-decoration:none;
+    color: #eee;
+    white-space: nowrap;
+    display: block;
 }
-.icon_item-link{
-    
+nav ul li a:hover{
+    color: black;
 }
-.icon_item-image{
-    
-   
-}
-.icon1{
-    margin-left: 595px;
-    height:30px;
-    
-}
-.icon2{
-    margin-left: 11px;
-}
-.icon3{
-    margin-left: 12px;
-}
-.icon4{
-    margin-left: 14px;
-}
+
+
 .footer_text{
     text-align: center;
+    margin-top: 28px;
 }
 .text{
     font-family: 'Raleway', sans-serif;
+    font-weight: 100;
     font-size: 16px;
-    font-weight: 500;
     letter-spacing: 1px;
     color: black;
+    line-height: 5px;
+}
+.student{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: black;
+    margin-top: 55px;
 }
