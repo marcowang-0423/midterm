@@ -46,10 +46,10 @@ html{
     margin-left: 265px;
     text-align: center;
     line-height: 38px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 .btn:hover{
-    transition: 0.3s;
+    transition: 0.5s;
     color: black;
 }
 .button1{
@@ -130,7 +130,7 @@ footer{
 }
 nav{
     width: 200px;
-    height: 35px;
+    height: 60px;
     margin-left: 620px;
     margin-top: 263px;
 }
@@ -145,13 +145,21 @@ nav ul li a{
     text-decoration:none;
     color: #999999;
     display: block;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 nav ul li a:hover{
     color: black;
-    transition: 0.3s;
+    transition: 0.5s;
 }
-
+.nav-icon{
+    width: 200px;
+}
+.fa{
+    margin-left: 5px;
+}
+.fa-facebook{
+    margin-left: 15px;
+}
 
 .footer_text{
     text-align: center;
