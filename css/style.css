@@ -102,9 +102,51 @@ body{
 }
 .name{
     font-family: 'Raleway', sans-serif;
+    font-size: 24px;
     font-weight: 500;
     letter-spacing: 1px;
     color: black;
     text-align: center;
     margin-top: 216px;
+}
+.icon{
+    margin-top: 241px;
+}
+.icon_list{
+    display:flex;
+    
+}
+.icon_item{
+    list-style: none;
+}
+.icon_item-link{
+    
+}
+.icon_item-image{
+    
+   
+}
+.icon1{
+    margin-left: 595px;
+    height:30px;
+    
+}
+.icon2{
+    margin-left: 11px;
+}
+.icon3{
+    margin-left: 12px;
+}
+.icon4{
+    margin-left: 14px;
+}
+.footer_text{
+    text-align: center;
+}
+.text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: black;
 }
