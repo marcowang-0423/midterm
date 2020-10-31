@@ -52,6 +52,7 @@ html{
     transition: 0.5s;
     color: black;
 }
+
 .button1{
     width: 137px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -71,56 +72,140 @@ html{
     margin-left: 30px;
     margin-right: 218px;
 }
-/* body */
+
 body{
     margin: 0;
     padding: 0;
 }
+
 .cover{
     width: 1440px;
-    height: 880px;
+    height: 450px;
     background-color: #cccccc;
     margin: 0;
     padding: 0;
     margin-top: 50px;
 }
-.picplace{
-    display: flex;
+.up{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    width: 640px;
+    height: 210px;
+    margin-top: 108px;
+    margin-left: 115px;
+    letter-spacing: 0.01em;
+    line-height:35px;
+    color:#303030;
 }
-.pic{
-    width: 335px;
-    height: 188px;
-    background-color: #a6a6a6;
-    margin-top: 179px;
-    text-decoration: none;
+
+label{
+    margin-left: 115px;
 }
-.picture1{
-    margin-left: 109px;
-}
-.picture2{
-    margin-left: 109px;
-}
-.picture3{
-    margin-left: 109px;
-    margin-right: 110px;
+.deco{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    margin-left: 115px;
+    font-weight: 100;
+    color:#303030;
 }
 .name{
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    letter-spacing: 1px;
-    color: black;
-    margin-left: 160px;
-    margin-top: 27px;
+    margin-top: 30px;
+}
+.firstname{
+    margin-top: 5px;
+    width: 310px;
+    height: 35px;
+    background-color: #f4f4f4;
+    border: 1px solid #dedede;
+}
+.lastname{
+    margin-top: 5px;
+    margin-left: 16px;
+    width: 310px;
+    height: 35px;
+    background-color: #f4f4f4;
+    border: 1px solid #dedede;
 }
 .intro{
-    text-decoration: none;
-    color: black;
+    display:flex;
+    margin-top: 5px;
 }
-.name2{
-    margin: 229px;
+.first{
+    font-size: 16px;
+    color: #b6b6b6;
 }
-.name3{
-    margin-left: -66px;
+.last{
+    font-size: 16px;
+    margin-left: 250px;
+    color: #b6b6b6;
+}
+.emailaddress{
+    margin-top: 26px;
+}
+.box{
+    width: 640px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 115px;
+    background-color: #f4f4f4;
+    border: 1px solid #dedede;
+}
+.subject{
+    margin-top: 39px;
+}
+.message{
+    margin-top: 39px;
+}
+.mes{
+    margin-top: 5px;
+    margin-left: 115px;
+    width: 640px;
+    height: 105px;
+    background-color: #f4f4f4;
+    border: 1px solid #dedede;
+}
+.submit[type=submit]{
+    position: absolute;
+    margin-left: -640px;
+    margin-top: 200px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #fff;
+    border-color: #303030;
+    width: 170px;
+    height: 50px;
+    letter-spacing: 1px;
+    transition:  all 0.3s; 
+    -webkit-box-shadow: 5px 5px #dedede;
+}
+.submit[type=submit]:hover{
+    background-color: #303030;
+    color: #fff;
+    transition: 0.3s; 
+}
+.right{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    width: 447px;
+    height: 210px;
+    margin-top: -724px;
+    margin-left: 855px;
+    letter-spacing: 0.01em;
+    line-height:35px ;
+    border-bottom: 1px solid #303030;
+}
+iframe{
+    width: 447px;
+    height: 471px;
+    margin-left: 857px;
+    margin-top: 40px;
+}
+.ntue{
+    color:#303030;
+}
+.tel{
+    color: #303030;
 }
 
 /* footer */
@@ -132,7 +217,7 @@ nav{
     width: 200px;
     height: 60px;
     margin-left: 620px;
-    margin-top: 280px;
+    margin-top: 301px;
 }
 nav ul{
     display:flex;
@@ -147,12 +232,13 @@ nav ul li a{
     display: block;
     transition: 0.5s;
 }
+
 .nav-icon{
     width: 200px;
 }
 .fa{
-    margin-left: 5px;
     transition: 0.5s;
+    margin-left: 5px;
 }
 .fa-facebook{
     margin-left: 15px;
