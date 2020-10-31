@@ -20,7 +20,7 @@ html{
     width: 198px;
     height: 72px;
     margin-left: 223px;
-    margin-top: 37px;
+    margin-top: 55px;
     text-align: center;
     line-height: 72px;
     text-decoration: none;
@@ -30,7 +30,7 @@ html{
 }
 .button-list{
     display: flex;
-    margin-top: 54px;
+    margin-top: 72px;
 }
 .nav-list-item{
     list-style: none;
@@ -43,7 +43,7 @@ html{
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
-    margin-left: 265px;
+    margin-left: 272px;
     text-align: center;
     line-height: 38px;
     transition: 0.5s;
@@ -67,9 +67,9 @@ html{
     margin-left: 30px;
 }
 .button4{
-    width:139px;
+    width:137px;
     margin-left: 30px;
-    margin-right: 224px;
+    margin-right: 218px;
 }
 /* body */
 body{
@@ -82,7 +82,7 @@ body{
     background-color: #cccccc;
     margin: 0;
     padding: 0;
-    margin-top: 88px;
+    margin-top: 50px;
 }
 .picplace{
     display: flex;
