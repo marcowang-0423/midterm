@@ -24,7 +24,7 @@ html{
     text-align: center;
     line-height: 72px;
     text-decoration: none;
-    color: black;
+    color: #303030;
     font-size: 36px;
     letter-spacing: 1px;
 }
@@ -108,13 +108,13 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
     letter-spacing: 1px;
-    color: black;
+    color: #303030;
     margin-left: 160px;
     margin-top: 27px;
 }
 .intro{
     text-decoration: none;
-    color: black;
+    color: #303030;
 }
 .name2{
     margin: 229px;
@@ -178,7 +178,7 @@ nav ul li a{
     font-weight: 100;
     font-size: 12px;
     letter-spacing: 1px;
-    color: black;
+    color: #303030;
     line-height: 5px;
 }
 .student{
@@ -186,6 +186,6 @@ nav ul li a{
     font-weight: 100;
     font-size: 12px;
     letter-spacing: 1px;
-    color: black;
+    color: #303030;
     margin-top: 40px;
 }
