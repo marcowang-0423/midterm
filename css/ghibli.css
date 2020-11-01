@@ -82,7 +82,8 @@ div h1{
     color: white;
     position: relative;
     margin-top: -245px;
-    margin-left: 535px;
+    margin-left: 545px;
+    text-shadow: 0 0 1px black, 0 0 5px #303030;
 }
 .cover{
     width: 1440px;
@@ -92,6 +93,21 @@ div h1{
     padding: 0;
     margin-top: 50px;
 }
+iframe{
+    margin-left: 240px;
+    margin-top: 120px;
+    border-radius: 5px;
+}
+.line{
+    margin-left: 240px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+    margin-top: 60px;
+    color: #858585;
+}
+.line p{
+    font-style: italic;
+}
 .picplace{
     display: flex;
 }
@@ -99,7 +115,7 @@ div h1{
     width: 335px;
     height: 400px;
     background-color: #a6a6a6;
-    margin-top: 179px;
+    margin-top: 180px;
     text-decoration: none;
     overflow: hidden;
     transform: scale(1,1);
@@ -111,8 +127,9 @@ div h1{
     transform: scale(1.1,1.1);
 }
 .name{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 24px;
+    font-weight: normal;
     letter-spacing: 1px;
     color: #303030;
     margin-top: 27px;
@@ -122,22 +139,22 @@ div h1{
     color: #303030;
 }
 .name1{
-    margin-left:239px;
+    margin-left:180px;
 }
 .name2{
-    margin-left: 240px;
+    margin-left: 245px;
 }
 .name3{
-    margin-left: 125px;
+    margin-left: 277px;
 }
 .name4{
-    margin-left: 190px;
+    margin-left: 237px;
 }
 .name5{
-    margin-left: 285px;
+    margin-left: 310px;
 }
 .name6{
-    margin-left: 322px;
+    margin-left: 240px;
 }
 
 

@@ -95,6 +95,7 @@ div h1{
     position: relative;
     margin-top: -245px;
     margin-left: 400px;
+    text-shadow: 0 0 1px black, 0 0 5px #303030;
 }
 .up{
     font-family: 'Quicksand', sans-serif;
