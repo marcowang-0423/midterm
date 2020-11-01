@@ -85,6 +85,11 @@ body{
     margin: 0;
     padding: 0;
     margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    color: #f4f4f4;
+    line-height: 450px;
+    justify-content: center;
 }
 .up{
     font-family: 'Quicksand', sans-serif;

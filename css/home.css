@@ -182,6 +182,13 @@ body{
     background-color: #a6a6a6;
     margin-top: 179px;
     text-decoration: none;
+    overflow: hidden;
+    transform: scale(1,1);
+    transition: all 0.5s ease-out;
+    border-radius: 5px;
+}
+.pic:hover{
+    transform: scale(1.1,1.1);
 }
 .picture1{
     margin-left: 109px;
@@ -206,10 +213,10 @@ body{
     color: #303030;
 }
 .name2{
-    margin: 229px;
+    margin: 265px;
 }
 .name3{
-    margin-left: -66px;
+    margin-left: -71px;
 }
 
 /* footer */
