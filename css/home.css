@@ -6,7 +6,6 @@ html{
    width:1440px;
    height:2000px;
    box-sizing: border-box;
-   border: 1px solid black;
 }
 *,*:before,*:after{
     box-sizing: inherit;
@@ -22,7 +21,7 @@ html{
     width: 198px;
     height: 72px;
     margin-left: 223px;
-    margin-top: 55px;
+    margin-top: 45px;
     text-align: center;
     line-height: 45px;
     text-decoration: none;
@@ -53,7 +52,7 @@ html{
 }
 .btn:hover{
     transition: 0.5s;
-    color: black;
+    color: #303030;
 }
 .button1{
     width: 137px;
