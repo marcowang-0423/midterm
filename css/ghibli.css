@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;500&family=Quicksand:wght@300;400;500&family=Raleway:wght@200;400;500&display=swap');@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&family=Quicksand:wght@300;400;500&family=Raleway:wght@100;200&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 html{
     width:1440px;
     height:3325px;
@@ -13,14 +13,14 @@ html{
     display:flex; 
 }
 .headtitle{
-    font-family: 'Major Mono Display', monospace;
+    font-family: 'Jacques Francois Shadow', cursive;
     display:block;
     width: 198px;
     height: 72px;
     margin-left: 223px;
     margin-top: 55px;
     text-align: center;
-    line-height: 72px;
+    line-height: 45px;
     text-decoration: none;
     color: black;
     font-size: 36px;
