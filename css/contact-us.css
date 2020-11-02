@@ -202,21 +202,23 @@ div h1{
     transition: 0.3s; 
 }
 .right{
+    position: absolute;
     font-family: 'Quicksand', sans-serif;
     font-size: 16px;
     width: 447px;
     height: 210px;
-    margin-top: -724px;
+    top:37%;
     margin-left: 855px;
     letter-spacing: 0.01em;
     line-height:35px ;
     border-bottom: 1px solid #303030;
 }
 iframe{
+    position: absolute;
     width: 447px;
     height: 471px;
-    margin-left: 857px;
-    margin-top: 40px;
+    top:50%;
+    margin-left: 856px;
 }
 .ntue{
     color:#303030;
