@@ -76,7 +76,7 @@ html{
 .button4{
     width:137px;
     margin-left: 30px;
-    margin-right: 218px;
+    /* margin-right: 218px; */
     color: #303030;
 }
 
@@ -100,7 +100,7 @@ div h1{
     letter-spacing: 20px;
     color: white;
     position: relative;
-    margin-top: -245px;
+    margin-top: -250px;
     margin-left: 400px;
     text-shadow: 0 0 1px black, 0 0 5px #303030;
 }
@@ -116,9 +116,6 @@ div h1{
     color:#303030;
 }
 
-label{
-    margin-left: 115px;
-}
 .deco{
     font-family: 'Quicksand', sans-serif;
     font-size: 24px;
@@ -126,11 +123,13 @@ label{
     font-weight: 100;
     color:#303030;
 }
+
 .name{
     margin-top: 30px;
 }
 .firstname{
     margin-top: 5px;
+    margin-left: 115px;
     width: 310px;
     height: 35px;
     background-color: #f4f4f4;
