@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 html{
     width:1440px;
-    height:2500px;
+    height:3325px;
     box-sizing: border-box;
  }
  *,*:before,*:after{
@@ -89,46 +89,55 @@ body{
     padding: 0;
     margin-top: 50px;
 }
-.picplace{
-    display: flex;
+div h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    letter-spacing: 20px;
+    color: white;
+    position: relative;
+    margin-top: -265px;
+    margin-left: 575px;
+    text-shadow: 0 0 1px black, 0 0 5px #303030;
 }
 .pic{
-    width: 335px;
-    height: 400px;
-    background-color: #a6a6a6;
-    margin-top: 179px;
-    text-decoration: none;
+    width: 1200px;
+    height: 275px;
+    display: flex;
+    margin-left: 119px;
+    margin-top: 91px;
 }
-.picture1{
-    margin-left: 109px;
+.picplace{
+    width: 590px;
+    height: 275px;
+    transform: scale(1,1);
+    transition: all 0.5s ease-out;
 }
-.picture2{
-    margin-left: 109px;
+.picplace:hover{
+    transform: scale(1.1,1.1);
 }
-.picture3{
-    margin-left: 109px;
-    
+body div img{
+    border-radius: 5px;
 }
-.name{
+body div h3{
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
-    letter-spacing: 1px;
     color: #303030;
-    margin-left: 160px;
-    margin-top: 27px;
+    margin-left: 69px;
 }
-.intro{
-    text-decoration: none;
+body h4{
+    width: 542px;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
     color: #303030;
-}
-.name2{
-    margin: 229px;
-}
-.name3{
-    margin-left: -66px;
+    font-weight: normal;
+    margin-left: 780px;
+    margin-top: -200px;
+    line-height: 25px;
 }
 
-
+/* footer */
 /* footer */
 footer{
     margin: 0;
@@ -138,7 +147,7 @@ nav{
     width: 200px;
     height: 60px;
     margin-left: 620px;
-    margin-top: 393px;
+    margin-top: 292px;
 }
 nav ul{
     display:flex;
